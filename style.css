@@ -1,5 +1,8 @@
 #tabBar{
-    background-color: rgba(255, 255, 255, 0.807);
+    background-color: rgba(224, 176, 176, 0.807);
     height: 100vh;
     width: 20vw;
+    position: absolute;
+    top: 0;
+
 }
