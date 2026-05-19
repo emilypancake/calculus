@@ -1,4 +1,3 @@
-
 h1{
     color: white;
     font-size: clamp(2rem, 2vw, 5rem);
@@ -9,10 +8,19 @@ h1{
 .show{
     display: initial;
 }
+#caption{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+a{
+    color:rgba(0, 0, 0, 0.3);
+    text-shadow: rgba(0, 0, 0, 0.3);
+}
+
 header{
     display: flex;
     position: fixed;
     width: 100%;
+    height: 3rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,7 +31,9 @@ header{
   
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     
+    
 }
+
 #tabBar_Menu{
     display: flex;
     justify-content: flex-start;
@@ -44,10 +54,14 @@ section{
 }
 
 
+
 section h1{
     color: black;
     border-bottom: 1px solid black;
     /* position: fixed; */
+}
+#initialSpacing{
+    padding-top: 8rem;
 }
 img{
     border-radius: 10px;
