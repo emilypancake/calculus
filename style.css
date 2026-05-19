@@ -29,6 +29,7 @@ h1{
 
 header{
     display: flex;
+    z-index: 100;
     position: fixed;
     width: 100dvw;
     height: 6rem;
@@ -98,6 +99,7 @@ img, iframe{
 } */
 
 #tabBar_Open{
+    z-index: 100;
 
     background-color: rgba(224, 176, 176, 0.807);
     height: 100vh;
